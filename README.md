@@ -1,16 +1,3 @@
----
-app_port: 7860
-title: AI Waste Classification
-emoji: 🗑️
-colorFrom: green
-colorTo: blue
-sdk: static
-python_version: 3.11 # Crucial fix for stability and compatibility
-run: |
-  pip install -r requirements.txt
-  gunicorn --workers 1 --timeout 120 app:app -b 0.0.0.0:7860
----
-
 **AI-Powered Waste Classification and Recycling Suggestions** ♻️
 
 **Project Overview**
